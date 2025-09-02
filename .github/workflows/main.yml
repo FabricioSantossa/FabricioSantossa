@@ -1,4 +1,4 @@
-name: Generate Pacman Animation
+name: Generate Snake Animation
 
 on:
   # Roda a cada 12 horas automaticamente
@@ -15,19 +15,23 @@ on:
 
 jobs:
   generate:
+    permissions:
+      contents: write
+      
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      # Gera a animação com base no seu gráfico de contribuições
+      # Gera a animação da cobrinha
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Altera os nomes dos arquivos de saída para "snake"
           outputs: |
-            dist/pacman-contribution-graph.svg
-            dist/pacman-contribution-graph-dark.svg?palette=github-dark&color_snake=yellow
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      # Envia os arquivos gerados para uma branch chamada "output"
+      # Envia os arquivos gerados para a branch "output"
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
