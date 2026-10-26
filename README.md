@@ -7,18 +7,14 @@
 </p>
 
 <p align="center">
-  <a href="https://atelie-fabricio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portf%C3%B3lio-2563EB?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Visitar meu portfólio" />
-  </a>
-  <a href="https://www.linkedin.com/in/fabricio-almeida-2b4876285/">
-    <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:fabricioalmeida410@icloud.com">
-    <img src="https://img.shields.io/badge/E--mail-7C3AED?style=for-the-badge&amp;logo=maildotru&amp;logoColor=white" alt="Enviar e-mail" />
-  </a>
+  <a href="https://atelie-fabricio.vercel.app/"><img src="./profile/link-portfolio.svg" height="40" alt="Visitar meu portfólio" /></a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/fabricio-almeida-2b4876285/"><img src="./profile/link-linkedin.svg" height="40" alt="LinkedIn" /></a>
+  &nbsp;
+  <a href="mailto:fabricioalmeida410@icloud.com"><img src="./profile/link-email.svg" height="40" alt="Enviar e-mail" /></a>
 </p>
 
-## Sobre mim
+### Sobre mim
 
 Sou formado em **Análise e Desenvolvimento de Sistemas** e atuo como **Analista e Desenvolvedor Full Stack**.
 
@@ -26,33 +22,45 @@ Sou formado em **Análise e Desenvolvimento de Sistemas** e atuo como **Analista
 - Trabalho com consultas e manipulação de dados em **Oracle**, contribuindo para a estabilidade e o desempenho do sistema.
 - Tenho contato direto com clientes para entender necessidades, resolver problemas e propor melhorias.
 
-## Tecnologias
+### Tecnologias
 
 **Front-end**
 
 <p>
-  <img src="https://img.shields.io/badge/React-161B22?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/JavaScript-161B22?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-161B22?style=for-the-badge&amp;logo=html5&amp;logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-161B22?style=for-the-badge&amp;logo=css&amp;logoColor=639" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Bootstrap-161B22?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=AC8DFF" alt="Bootstrap" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="36" width="36" alt="React" title="React" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="36" width="36" alt="JavaScript" title="JavaScript" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="36" width="36" alt="HTML5" title="HTML5" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="36" width="36" alt="CSS3" title="CSS3" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="36" width="36" alt="Bootstrap" title="Bootstrap" />
 </p>
+
+React · JavaScript · HTML5 · CSS3 · Bootstrap
 
 **Back-end e dados**
 
 <p>
-  <img src="https://img.shields.io/badge/Node.js-161B22?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=5FA04E" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Oracle-161B22?style=for-the-badge&amp;logoColor=F80000" alt="Oracle" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="36" width="36" alt="Node.js" title="Node.js" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="36" width="36" alt="Oracle" title="Oracle" />
 </p>
+
+Node.js · Oracle
 
 **Ferramentas e design**
 
 <p>
-  <img src="https://img.shields.io/badge/Git-161B22?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/Figma-161B22?style=for-the-badge&amp;logo=figma&amp;logoColor=A78BFA" alt="Figma" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="36" width="36" alt="Git" title="Git" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="36" width="36" alt="Figma" title="Figma" />
 </p>
 
-## Atividade no GitHub
+Git · Figma
+
+### Atividade no GitHub
 
 <!-- PROFILE-STATS:START -->
 <p align="center">
@@ -63,13 +71,13 @@ Sou formado em **Análise e Desenvolvimento de Sistemas** e atuo como **Analista
 
 <p align="center"><sub>As linguagens refletem o código dos repositórios analisados, não o nível de domínio de cada tecnologia.</sub></p>
 
-## Vamos conversar
+### Vamos conversar
 
 Gosto de transformar necessidades reais em melhorias no software e na experiência de quem o utiliza.
 
 [Portfólio](https://atelie-fabricio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/fabricio-almeida-2b4876285/) · [fabricioalmeida410@icloud.com](mailto:fabricioalmeida410@icloud.com)
 
-## Meu voo de contribuições
+### Meu voo de contribuições
 
 <p align="center">
   <img src="./profile/flight.svg" width="960" alt="Avião disparando nos quadradinhos do meu calendário de contribuições" />
