@@ -7,6 +7,9 @@
 </p>
 
 <p align="center">
+  <a href="https://atelie-fabricio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portf%C3%B3lio-2563EB?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Visitar meu portfólio" />
+  </a>
   <a href="https://www.linkedin.com/in/fabricio-almeida-2b4876285/">
     <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
@@ -64,7 +67,7 @@ Sou formado em **Análise e Desenvolvimento de Sistemas** e atuo como **Analista
 
 Gosto de transformar necessidades reais em melhorias no software e na experiência de quem o utiliza.
 
-[LinkedIn](https://www.linkedin.com/in/fabricio-almeida-2b4876285/) · [fabricioalmeida410@icloud.com](mailto:fabricioalmeida410@icloud.com)
+[Portfólio](https://atelie-fabricio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/fabricio-almeida-2b4876285/) · [fabricioalmeida410@icloud.com](mailto:fabricioalmeida410@icloud.com)
 
 ## Meu voo de contribuições
 
