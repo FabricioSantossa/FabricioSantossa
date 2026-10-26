@@ -66,8 +66,14 @@ Gosto de transformar necessidades reais em melhorias no software e na experiênc
 
 [LinkedIn](https://www.linkedin.com/in/fabricio-almeida-2b4876285/) · [fabricioalmeida410@icloud.com](mailto:fabricioalmeida410@icloud.com)
 
+## Meu voo de contribuições
+
+<p align="center">
+  <img src="./profile/flight.svg" width="960" alt="Avião disparando nos quadradinhos do meu calendário de contribuições" />
+</p>
+
 <details>
-  <summary>Meu histórico de contribuições</summary>
+  <summary>Ver a cobrinha clássica</summary>
   <br />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FabricioSantossa/FabricioSantossa/output/github-snake-dark.svg" />
