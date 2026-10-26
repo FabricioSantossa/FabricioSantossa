@@ -1,0 +1,94 @@
+name: Atualizar estatisticas do perfil
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # 03:17 em Sao Paulo (UTC-3)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Conferir segredo
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_STATS_TOKEN" ]; then
+            echo "::error::Cadastre PROFILE_STATS_TOKEN em Settings > Secrets and variables > Actions. Consulte .github/PROFILE-STATS.md."
+            exit 1
+          fi
+
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Gerar estatisticas
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: stats
+          options: username=FabricioSantossa&show_icons=true&include_all_commits=true&hide_rank=true&show=reviews,prs_merged&locale=pt-br&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&icon_color=60A5FA&border_color=30363D&border_radius=16&custom_title=Atividade%20no%20GitHub
+          path: profile/stats.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Gerar linguagens
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
+        with:
+          card: top-langs
+          options: username=FabricioSantossa&layout=compact&langs_count=8&locale=pt-br&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9&border_color=30363D&border_radius=16&card_width=360&custom_title=Linguagens%20nos%20reposit%C3%B3rios
+          path: profile/top-langs.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          fail_on_error: true
+
+      - name: Usar cards locais no README
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          for name in ("stats.svg", "top-langs.svg"):
+              root = ET.parse(Path("profile") / name).getroot()
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"SVG invalido: {name}")
+
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
+          start = "<!-- PROFILE-STATS:START -->"
+          end = "<!-- PROFILE-STATS:END -->"
+          if text.count(start) != 1 or text.count(end) != 1:
+              raise SystemExit("Marcadores de estatisticas ausentes ou duplicados")
+          before, remainder = text.split(start, 1)
+          _, after = remainder.split(end, 1)
+          cards = '''
+          <p align="center">
+            <img src="./profile/stats.svg" width="495" alt="Estatisticas do GitHub de Fabricio" />
+            <img src="./profile/top-langs.svg" width="360" alt="Linguagens nos repositorios de Fabricio" />
+          </p>
+          '''
+          path.write_text(before + start + cards + end + after, encoding="utf-8")
+          PY
+
+      - name: Publicar cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile/stats.svg profile/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "Cards sem alteracoes."
+            exit 0
+          fi
+          git commit -m "chore: atualizar estatisticas do perfil"
+          git push origin HEAD:main
