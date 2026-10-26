@@ -1,63 +1,77 @@
-<h1 align="center">Olá, eu sou Fabricio Santos Almeida👋</h1>
+<p align="center">
+  <img src="./profile/header.svg" width="960" alt="Fabricio Santos Almeida — Desenvolvedor Full Stack" />
+</p>
 
-###
+<p align="center">
+  Interfaces responsivas, sistemas ERP e soluções que conectam tecnologia e pessoas.
+</p>
 
-<p align="center">Estudante de Análise e Desenvolvimento de Sistemas | Analista e Desenvolvedor Full Stack</p>
-
-###
-
-<p align="left">Atuo no desenvolvimento e manutenção de interfaces modernas, responsivas e altamente interativas para um sistema ERP, utilizando tecnologias como React, JavaScript, HTML e CSS, com foco em compatibilidade total com dispositivos móveis. Realizo consultas e manipulação de dados em banco Oracle, contribuindo para a estabilidade e performance do sistema.<br><br>Tenho contato direto com os clientes da empresa, atuando na identificação de necessidades, resolução de problemas e sugestão de melhorias para aprimorar a experiência do usuário final.</p>
-
-###
-
-<br clear="both">
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle logo"  />
-</div>
-
-###
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FabricioSantossa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=FabricioSantossa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
-</div>
-
-###
-
-<div align="left">
-  <a href="mailto:fabricioalmeida410@icloud.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="gmail logo"  />
+<p align="center">
+  <a href="https://www.linkedin.com/in/fabricio-almeida-2b4876285/">
+    <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://www.linkedin.com/in/fabricio-almeida-2b4876285/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  <a href="mailto:fabricioalmeida410@icloud.com">
+    <img src="https://img.shields.io/badge/E--mail-7C3AED?style=for-the-badge&amp;logo=maildotru&amp;logoColor=white" alt="Enviar e-mail" />
   </a>
-</div>
+</p>
 
-###
+## Sobre mim
 
-<div align="center">
+Sou estudante de **Análise e Desenvolvimento de Sistemas** e atuo como **Analista e Desenvolvedor Full Stack**.
+
+- Desenvolvo e mantenho interfaces de sistemas ERP com **React, JavaScript, HTML e CSS**, com foco em responsividade e experiência de uso.
+- Trabalho com consultas e manipulação de dados em **Oracle**, contribuindo para a estabilidade e o desempenho do sistema.
+- Tenho contato direto com clientes para entender necessidades, resolver problemas e propor melhorias.
+
+## Tecnologias
+
+**Front-end**
+
+<p>
+  <img src="https://img.shields.io/badge/React-161B22?style=for-the-badge&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-161B22?style=for-the-badge&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-161B22?style=for-the-badge&amp;logo=html5&amp;logoColor=E34F26" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-161B22?style=for-the-badge&amp;logo=css&amp;logoColor=639" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Bootstrap-161B22?style=for-the-badge&amp;logo=bootstrap&amp;logoColor=AC8DFF" alt="Bootstrap" />
+</p>
+
+**Back-end e dados**
+
+<p>
+  <img src="https://img.shields.io/badge/Node.js-161B22?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=5FA04E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Oracle-161B22?style=for-the-badge&amp;logoColor=F80000" alt="Oracle" />
+</p>
+
+**Ferramentas e design**
+
+<p>
+  <img src="https://img.shields.io/badge/Git-161B22?style=for-the-badge&amp;logo=git&amp;logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/Figma-161B22?style=for-the-badge&amp;logo=figma&amp;logoColor=A78BFA" alt="Figma" />
+</p>
+
+## Atividade no GitHub
+
+<!-- PROFILE-STATS:START -->
+<p align="center">
+  <img src="https://github-stats-extended.vercel.app/api?username=FabricioSantossa&amp;show_icons=true&amp;include_all_commits=true&amp;hide_rank=true&amp;show=reviews,prs_merged&amp;locale=pt-br&amp;bg_color=0D1117&amp;title_color=A78BFA&amp;text_color=C9D1D9&amp;icon_color=60A5FA&amp;border_color=30363D&amp;border_radius=16&amp;custom_title=Atividade%20no%20GitHub" width="495" alt="Estatísticas públicas do GitHub de Fabricio" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=FabricioSantossa&amp;layout=compact&amp;langs_count=8&amp;locale=pt-br&amp;bg_color=0D1117&amp;title_color=A78BFA&amp;text_color=C9D1D9&amp;border_color=30363D&amp;border_radius=16&amp;card_width=360&amp;custom_title=Linguagens%20nos%20reposit%C3%B3rios" width="360" alt="Linguagens nos repositórios públicos de Fabricio" />
+</p>
+<!-- PROFILE-STATS:END -->
+
+<p align="center"><sub>As linguagens refletem o código dos repositórios analisados, não o nível de domínio de cada tecnologia.</sub></p>
+
+## Vamos conversar
+
+Gosto de transformar necessidades reais em melhorias no software e na experiência de quem o utiliza.
+
+[LinkedIn](https://www.linkedin.com/in/fabricio-almeida-2b4876285/) · [fabricioalmeida410@icloud.com](mailto:fabricioalmeida410@icloud.com)
+
+<details>
+  <summary>Meu histórico de contribuições</summary>
+  <br />
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FabricioSantossa/FabricioSantossa/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FabricioSantossa/FabricioSantossa/output/github-snake.svg">
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/FabricioSantossa/FabricioSantossa/output/github-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FabricioSantossa/FabricioSantossa/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FabricioSantossa/FabricioSantossa/output/github-snake.svg" />
+    <img alt="Animação da cobrinha no calendário de contribuições" src="https://raw.githubusercontent.com/FabricioSantossa/FabricioSantossa/output/github-snake.svg" />
   </picture>
-</div>
-
-###
+</details>

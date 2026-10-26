@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">Fabricio Santos Almeida</title>
+  <desc id="desc">Desenvolvedor Full Stack. React, JavaScript e Oracle.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0D1117" />
+      <stop offset="1" stop-color="#171C35" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#60A5FA" />
+      <stop offset="1" stop-color="#A78BFA" />
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="958" height="238" rx="24" fill="url(#background)" stroke="#30363D" />
+  <circle cx="865" cy="86" r="130" fill="none" stroke="#A78BFA" stroke-opacity=".12" stroke-width="32" />
+  <circle cx="865" cy="86" r="80" fill="none" stroke="#60A5FA" stroke-opacity=".15" />
+  <rect x="48" y="44" width="36" height="4" rx="2" fill="url(#accent)" />
+  <text x="96" y="51" fill="#A5B4FC" font-family="Segoe UI,Arial,sans-serif" font-size="13" letter-spacing="3">TECNOLOGIA + EXPERIÊNCIA</text>
+  <text x="48" y="112" fill="#F0F6FC" font-family="Segoe UI,Arial,sans-serif" font-size="42" font-weight="700">Fabricio Santos Almeida</text>
+  <text x="48" y="151" fill="#C9D1D9" font-family="Segoe UI,Arial,sans-serif" font-size="23">Desenvolvedor Full Stack</text>
+  <text x="48" y="199" fill="#93A4BE" font-family="Segoe UI,Arial,sans-serif" font-size="15" letter-spacing="1">REACT / JAVASCRIPT / ORACLE</text>
+  <text x="808" y="163" fill="url(#accent)" font-family="Consolas,monospace" font-size="58" opacity=".75">&lt;/&gt;</text>
+</svg>
