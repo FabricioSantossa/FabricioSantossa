@@ -17,7 +17,7 @@
 
 ## Sobre mim
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas** e atuo como **Analista e Desenvolvedor Full Stack**.
+Sou formado em **Análise e Desenvolvimento de Sistemas** e atuo como **Analista e Desenvolvedor Full Stack**.
 
 - Desenvolvo e mantenho interfaces de sistemas ERP com **React, JavaScript, HTML e CSS**, com foco em responsividade e experiência de uso.
 - Trabalho com consultas e manipulação de dados em **Oracle**, contribuindo para a estabilidade e o desempenho do sistema.
